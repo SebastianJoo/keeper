@@ -2,7 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer>Copyright Sebastian Johansson {new Date().getFullYear()} </footer>
+    <footer>
+      <p>Copyright Sebastian Johansson {new Date().getFullYear()}</p>{" "}
+    </footer>
   );
 }
 
